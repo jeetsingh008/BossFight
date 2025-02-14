@@ -14,6 +14,9 @@ const ProductsOverview = () => {
           {/* Products List */}
           <ProductList productList={products} />
           {/* Call to action button */}
+          <div className="flex justify-center">
+            <button className="primary-btn">Explore more</button>
+          </div>
         </div>
       </div>
     </section>
