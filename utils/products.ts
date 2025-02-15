@@ -8,6 +8,7 @@ type Product = {
   price: number;
   MRP: number;
   imagesrc: StaticImageData;
+  aosDelay: string
 };
 const products: Array<Product> = [
   {
@@ -17,6 +18,7 @@ const products: Array<Product> = [
     price: 990,
     MRP: 1999,
     imagesrc: consolepic,
+    aosDelay: "100"
   },
   {
     id: 2,
@@ -25,6 +27,7 @@ const products: Array<Product> = [
     price: 4690,
     MRP: 7890,
     imagesrc: consolepic,
+    aosDelay: "200"
   },
   {
     id: 3,
@@ -33,6 +36,7 @@ const products: Array<Product> = [
     price: 2990,
     MRP: 3990,
     imagesrc: consolepic,
+    aosDelay: "300"
   },
   {
     id: 4,
@@ -41,6 +45,7 @@ const products: Array<Product> = [
     price: 4590,
     MRP: 6999,
     imagesrc: consolepic,
+    aosDelay: "400"
   },
   {
     id: 5,
@@ -49,6 +54,16 @@ const products: Array<Product> = [
     price: 4590,
     MRP: 6999,
     imagesrc: consolepic,
+    aosDelay: "500"
+  },
+  {
+    id: 6,
+    name: "Product 6",
+    description: "This is product 4",
+    price: 4590,
+    MRP: 6999,
+    imagesrc: consolepic,
+    aosDelay: "600"
   },
 ];
 
