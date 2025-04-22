@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "370px",
+      },
       colors: {
         primary: "#f19509",
         primaryDark: "#e86f00",
