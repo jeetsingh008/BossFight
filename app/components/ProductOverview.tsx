@@ -14,7 +14,7 @@ const ProductOverview = () => {
               </h1>
             </div>
             <ProductList productList={products} />
-            <div className="flex justify-center">
+            <div className="flex justify-end">
               <button className="primary-btn">Explore</button>
             </div>
           </div>
