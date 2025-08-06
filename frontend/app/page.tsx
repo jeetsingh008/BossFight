@@ -45,9 +45,9 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <main className="overflow-hidden w-full py-8">
+      <main className="overflow-hidden w-full">
         <Hero />
-        <div className="container">
+        <div className="container py-8">
           <ProductsOverview />
           <div className="max-w-3xl mx-auto">
             <RandomCarousel title="Best Deals">
