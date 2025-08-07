@@ -30,7 +30,7 @@ export const getAllProducts = async (req: Request, res: Response) => {
   }
 };
 
-const updateProduct = async (req: Request, res: Request) => {
+export const updateProduct = async (req: Request, res: Response) => {
   try {
     await Product.findByIdAndUpdate(req.params.id, req.body);
     res.status(200).json({ message: "Product updated successfully" });
@@ -40,7 +40,7 @@ const updateProduct = async (req: Request, res: Request) => {
   }
 };
 
-export const deleteProduct = async (req: Request, res: Request) => {
+export const deleteProduct = async (req: Request, res: Response) => {
   try {
     await Product.findByIdAndRemove(req.params.id);
     res.json({ message: "Product deleted successfully" });
